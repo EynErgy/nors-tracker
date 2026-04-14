@@ -2,6 +2,6 @@ module.exports = {
   apps : [{
     name   : "tracker",
     script : "./server.js"
-    args: "8080"
+    args   : "8888"
   }]
 }

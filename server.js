@@ -25,4 +25,4 @@ tracker
 
 app.all('/pixel', tracker.middleware)
 
-app.listen(process.argv[2] || 3000)
+app.listen(process.argv[2] || 8888)
