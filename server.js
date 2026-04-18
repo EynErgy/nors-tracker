@@ -11,7 +11,6 @@ var express = require('express')
 
 
 app.use(cookieParser())
-app.use('/static', express.static(path.join(__dirname, '/static')))
 app.use('/logs', express.static(path.join(__dirname, '/logs')), serveIndex(path.join(__dirname, '/logs'), {'icons': true}))
 
 
